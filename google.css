@@ -11,10 +11,6 @@ img {
     bottom: 0;
 }
 
-.nav {
-    background-color: grey;
-}
-
 .logo {
     position: relative;
     height: 233px;
@@ -22,21 +18,23 @@ img {
 }
 
 .googleSearch {
-    width: 450px;
+    width: 584px;
     position: relative;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .buttons {
+    text-align: center;
     width: 450px;
     position: relative;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 
 #search {
-    height: 20px;
-    width: 450px;
+    display: inline-block;
+    height: 50px;
+    width: 584px;
 }
 
 #go {
@@ -45,6 +43,8 @@ img {
     border: 1px solid #f2f2f2;
     border-radius: 4px;
     text-align: center;
+    padding: 10px;
+    margin-right: 5px;
 }
 
 #lucky {
@@ -53,4 +53,6 @@ img {
     border: 1px solid #f2f2f2;
     border-radius: 4px;
     text-align: center;
+    padding: 10px;
+    margin-left: 5px;
 }
